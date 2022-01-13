@@ -38,7 +38,7 @@ function draw()
             if(objects[i].label=="person")
             {
                 document.getElementById("object_found").innerHTML = "Object Found";
-                song.stop();
+               
             }
             else{
                 document.getElementById("object_found").innerHTML = "Object Not Found";
